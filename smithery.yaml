@@ -1,0 +1,34 @@
+name: supply-chain-mcp
+description: 'Supply chain management and logistics tools for AI agents. Capabilities: shipment tracking, inventory management, supplier scorecards, demand forecasting, route optimization. Built by MEOK AI Labs.'
+version: 1.0.0
+tools:
+- name: track_shipment
+  description: Track shipment status with full history
+  parameters:
+  - name: caller
+    type: string
+    required: false
+- name: manage_inventory
+  description: Manage stock levels and reorder points
+  parameters:
+  - name: caller
+    type: string
+    required: false
+- name: supplier_scorecard
+  description: Generate supplier performance scorecard
+  parameters:
+  - name: caller
+    type: string
+    required: false
+- name: demand_forecast
+  description: Basic demand prediction with seasonality
+  parameters:
+  - name: caller
+    type: string
+    required: false
+- name: optimize_routing
+  description: Route optimization between warehouses
+  parameters:
+  - name: caller
+    type: string
+    required: false
