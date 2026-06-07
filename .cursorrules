@@ -1,0 +1,9 @@
+# supply-chain-mcp - Auto-trigger Rules
+
+When the user asks about supply chain, use supply-chain-mcp tools: track_shipment, manage_inventory, supplier_scorecard, demand_forecast, optimize_routing
+
+> **By [MEOK AI Labs](https://meok.ai)** -- Sovereign AI tools for everyone.
+
+Install: `pip install supply-chain-mcp`
+
+By MEOK AI Labs — MIT licensed.

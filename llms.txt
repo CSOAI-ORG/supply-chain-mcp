@@ -1,32 +1,36 @@
-# Supply Chain MCP
-
-> supply-chain-mcp — MCP server
-
-`supply-chain-mcp` is a Model Context Protocol (MCP) server by MEOK AI Labs.
+# supply-chain-mcp
+# > **By [MEOK AI Labs](https://meok.ai)** -- Sovereign AI tools for everyone.
 
 ## Install
-
 ```bash
 pip install supply-chain-mcp
 ```
 
-Or run without installing:
-
-```bash
-uvx supply-chain-mcp
-```
+## Auth & Rate Limits
+- Free tier: 10 calls/day. No API key required.
+- Pro tier (£79/mo): unlimited + signed attestations.
+- Enterprise (£1,499/mo): white-label.
 
 ## Tools
 
-- `track_shipment` — Track shipment status. Actions: create, update, status, list.
-- `manage_inventory` — Manage inventory stock levels and reorder points. Actions: add, remove, status, reorder_check, list.
-- `supplier_scorecard` — Generate a supplier performance scorecard with weighted rating.
-- `demand_forecast` — Generate basic demand prediction using moving average and growth trends.
-- `optimize_routing` — Optimize delivery routes between warehouses using nearest-neighbor heuristic.
+### `track_shipment`
+Track shipment status. Actions: create, update, status, list.
 
-## Links
+### `manage_inventory`
+Manage inventory stock levels and reorder points. Actions: add, remove, status, reorder_check, list.
 
-- Source: https://github.com/CSOAI-ORG/supply-chain-mcp
-- PyPI: https://pypi.org/project/supply-chain-mcp/
-- MEOK AI Labs: https://meok.ai
-- Council of AI: https://councilof.ai
+### `supplier_scorecard`
+Generate a supplier performance scorecard with weighted rating.
+
+### `demand_forecast`
+Generate basic demand prediction using moving average and growth trends.
+
+### `optimize_routing`
+Optimize delivery routes between warehouses using nearest-neighbor heuristic.
+
+
+## Maintainer
+MEOK AI Labs · hello@meok.ai · https://meok.ai · MIT licensed
+
+## Pairs with
+Governance moat: pair this tool with any of MEOK's 38 governance MCPs (EU AI Act, DORA, NIS2, CRA, GDPR, ISO 42001, etc.) for full compliance coverage.
