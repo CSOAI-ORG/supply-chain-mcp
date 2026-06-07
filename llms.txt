@@ -1,0 +1,32 @@
+# Supply Chain MCP
+
+> supply-chain-mcp — MCP server
+
+`supply-chain-mcp` is a Model Context Protocol (MCP) server by MEOK AI Labs.
+
+## Install
+
+```bash
+pip install supply-chain-mcp
+```
+
+Or run without installing:
+
+```bash
+uvx supply-chain-mcp
+```
+
+## Tools
+
+- `track_shipment` — Track shipment status. Actions: create, update, status, list.
+- `manage_inventory` — Manage inventory stock levels and reorder points. Actions: add, remove, status, reorder_check, list.
+- `supplier_scorecard` — Generate a supplier performance scorecard with weighted rating.
+- `demand_forecast` — Generate basic demand prediction using moving average and growth trends.
+- `optimize_routing` — Optimize delivery routes between warehouses using nearest-neighbor heuristic.
+
+## Links
+
+- Source: https://github.com/CSOAI-ORG/supply-chain-mcp
+- PyPI: https://pypi.org/project/supply-chain-mcp/
+- MEOK AI Labs: https://meok.ai
+- Council of AI: https://councilof.ai
