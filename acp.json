@@ -1,0 +1,23 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "supply-chain-mcp",
+    "description": "Supply chain management and logistics tools for AI agents. Capabilities: shipment tracking",
+    "version": "1.0.4",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "supply-chain-mcp"
+      }
+    ],
+    "capabilities": [
+      "track_shipment",
+      "manage_inventory",
+      "supplier_scorecard",
+      "demand_forecast",
+      "optimize_routing"
+    ]
+  }
+}

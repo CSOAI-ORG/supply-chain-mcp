@@ -1,0 +1,68 @@
+{
+  "name": "supply-chain-mcp",
+  "description": "Supply chain management and logistics tools for AI agents. Capabilities: shipment tracking",
+  "url": "https://proofof.ai/scorecard/supply-chain-mcp.html",
+  "version": "1.0.4",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "track_shipment",
+      "name": "Track Shipment",
+      "description": "track_shipment via supply-chain-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "manage_inventory",
+      "name": "Manage Inventory",
+      "description": "manage_inventory via supply-chain-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "supplier_scorecard",
+      "name": "Supplier Scorecard",
+      "description": "supplier_scorecard via supply-chain-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "demand_forecast",
+      "name": "Demand Forecast",
+      "description": "demand_forecast via supply-chain-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "optimize_routing",
+      "name": "Optimize Routing",
+      "description": "optimize_routing via supply-chain-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}
