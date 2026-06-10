@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.CSOAI-ORG/supply-chain-mcp",
   "description": "Supply chain management and logistics tools for AI agents. Capabilities: shipment tracking",
-  "version": "1.0.4",
+  "version": "1.0.9",
   "repository": {
     "url": "https://github.com/CSOAI-ORG/supply-chain-mcp",
     "source": "github"
@@ -10,7 +10,7 @@
   "packages": [
     {
       "identifier": "supply-chain-mcp",
-      "version": "1.0.4",
+      "version": "1.0.9",
       "transport": {
         "type": "stdio"
       },
